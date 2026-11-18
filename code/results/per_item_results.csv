@@ -1,0 +1,73 @@
+prompt,correct_completion,incorrect_completion,prefers_correct,lp_correct,lp_incorrect,condition,language
+Just nu, regnar det., det regnar.,1,-29.1540470123291,-32.556190490722656,baseline,swedish
+Senare, ringer jag dig., jag ringer dig.,0,-39.759727478027344,-38.56023406982422,baseline,swedish
+Igår kväll, lyssnade vi på musik., vi lyssnade på musik.,1,-32.02950668334961,-32.850433349609375,baseline,swedish
+Nästa månad, flyttar hon., hon flyttar.,1,-26.101369857788086,-31.877443313598633,baseline,swedish
+I torsdags, åt vi pizza., vi åt pizza.,1,-33.668304443359375,-35.62434387207031,baseline,swedish
+På hösten, regnar det mycket., det regnar mycket.,1,-24.91439437866211,-28.236835479736328,baseline,swedish
+I januari, börjar kursen., kursen börjar.,0,-31.446882247924805,-29.995838165283203,baseline,swedish
+Imorgon bitti, åker vi tidigt., vi åker tidigt.,1,-37.840049743652344,-41.194488525390625,baseline,swedish
+På söndag, spelar de fotboll., de spelar fotboll.,1,-31.239315032958984,-35.900634765625,baseline,swedish
+För två år sedan, bodde han i Malmö., han bodde i Malmö.,0,-29.787307739257812,-29.202144622802734,baseline,swedish
+I helgen, träffar vi vänner., vi träffar vänner.,1,-34.54875946044922,-35.90790939331055,baseline,swedish
+Nyligen, köpte jag en gitarr., jag köpte en gitarr.,1,-40.792808532714844,-44.15034484863281,baseline,swedish
+On Thursday, we ate pizza., ate we pizza.,1,-18.447139739990234,-36.500038146972656,baseline,english
+In autumn, it rains a lot., rains it a lot.,1,-12.383902549743652,-30.700733184814453,baseline,english
+In January, the course begins., begins the course.,1,-24.49974250793457,-26.035860061645508,baseline,english
+Tomorrow morning, we leave early., leave we early.,1,-21.072290420532227,-34.16151809692383,baseline,english
+On Sunday, they play football., play they football.,1,-16.88728141784668,-35.16659927368164,baseline,english
+Two years ago, he lived in Malmö., lived he in Malmö.,1,-27.65972137451172,-43.89929962158203,baseline,english
+This weekend, we meet friends., meet we friends.,1,-21.05497932434082,-34.99130630493164,baseline,english
+Recently, I bought a guitar., bought I a guitar.,1,-16.3505859375,-35.33082580566406,baseline,english
+Yesterday evening, we listened to music., listened we to music.,1,-18.03411293029785,-39.23059844970703,baseline,english
+Next year, she will study., will she study.,1,-26.545631408691406,-32.21046829223633,baseline,english
+Last Monday, they arrived late., arrived they late.,1,-18.191450119018555,-31.8973331451416,baseline,english
+In spring, the flowers bloom., bloom the flowers.,1,-13.621156692504883,-22.58626937866211,baseline,english
+Just nu, regnar det., det regnar.,1,-62.6192741394043,-64.11113739013672,targeted_edit,swedish
+Senare, ringer jag dig., jag ringer dig.,0,-73.52723693847656,-69.11725616455078,targeted_edit,swedish
+Igår kväll, lyssnade vi på musik., vi lyssnade på musik.,0,-88.47708129882812,-81.78340148925781,targeted_edit,swedish
+Nästa månad, flyttar hon., hon flyttar.,1,-58.20147705078125,-68.55155944824219,targeted_edit,swedish
+I torsdags, åt vi pizza., vi åt pizza.,0,-67.72235107421875,-64.8835678100586,targeted_edit,swedish
+På hösten, regnar det mycket., det regnar mycket.,1,-64.23653411865234,-66.97362518310547,targeted_edit,swedish
+I januari, börjar kursen., kursen börjar.,0,-55.20286560058594,-48.406856536865234,targeted_edit,swedish
+Imorgon bitti, åker vi tidigt., vi åker tidigt.,0,-85.94996643066406,-84.43912506103516,targeted_edit,swedish
+På söndag, spelar de fotboll., de spelar fotboll.,1,-46.8731689453125,-63.140995025634766,targeted_edit,swedish
+För två år sedan, bodde han i Malmö., han bodde i Malmö.,0,-71.02027893066406,-69.0962905883789,targeted_edit,swedish
+I helgen, träffar vi vänner., vi träffar vänner.,1,-68.79815673828125,-72.84497833251953,targeted_edit,swedish
+Nyligen, köpte jag en gitarr., jag köpte en gitarr.,1,-100.66268157958984,-103.7745590209961,targeted_edit,swedish
+On Thursday, we ate pizza., ate we pizza.,1,-23.84878921508789,-48.43613052368164,targeted_edit,english
+In autumn, it rains a lot., rains it a lot.,1,-15.868317604064941,-44.15137481689453,targeted_edit,english
+In January, the course begins., begins the course.,1,-29.1956729888916,-39.27497482299805,targeted_edit,english
+Tomorrow morning, we leave early., leave we early.,1,-33.312950134277344,-49.14769744873047,targeted_edit,english
+On Sunday, they play football., play they football.,1,-26.811872482299805,-42.88430404663086,targeted_edit,english
+Two years ago, he lived in Malmö., lived he in Malmö.,1,-42.994346618652344,-72.35726928710938,targeted_edit,english
+This weekend, we meet friends., meet we friends.,1,-31.871599197387695,-52.890464782714844,targeted_edit,english
+Recently, I bought a guitar., bought I a guitar.,1,-30.037437438964844,-51.32023620605469,targeted_edit,english
+Yesterday evening, we listened to music., listened we to music.,1,-31.577131271362305,-63.314910888671875,targeted_edit,english
+Next year, she will study., will she study.,1,-32.0595588684082,-38.38225555419922,targeted_edit,english
+Last Monday, they arrived late., arrived they late.,1,-28.547252655029297,-46.916297912597656,targeted_edit,english
+In spring, the flowers bloom., bloom the flowers.,1,-23.0760555267334,-32.52607727050781,targeted_edit,english
+Just nu, regnar det., det regnar.,1,-29.19092559814453,-32.588653564453125,random_edit,swedish
+Senare, ringer jag dig., jag ringer dig.,0,-39.76838684082031,-38.56820297241211,random_edit,swedish
+Igår kväll, lyssnade vi på musik., vi lyssnade på musik.,1,-32.0390510559082,-32.855934143066406,random_edit,swedish
+Nästa månad, flyttar hon., hon flyttar.,1,-26.094310760498047,-31.869077682495117,random_edit,swedish
+I torsdags, åt vi pizza., vi åt pizza.,1,-33.6825065612793,-35.63304901123047,random_edit,swedish
+På hösten, regnar det mycket., det regnar mycket.,1,-24.921825408935547,-28.2476749420166,random_edit,swedish
+I januari, börjar kursen., kursen börjar.,0,-31.45209503173828,-30.01713752746582,random_edit,swedish
+Imorgon bitti, åker vi tidigt., vi åker tidigt.,1,-37.858970642089844,-41.20989227294922,random_edit,swedish
+På söndag, spelar de fotboll., de spelar fotboll.,1,-31.236783981323242,-35.898963928222656,random_edit,swedish
+För två år sedan, bodde han i Malmö., han bodde i Malmö.,0,-29.787731170654297,-29.19874382019043,random_edit,swedish
+I helgen, träffar vi vänner., vi träffar vänner.,1,-34.547515869140625,-35.90985870361328,random_edit,swedish
+Nyligen, köpte jag en gitarr., jag köpte en gitarr.,1,-40.807159423828125,-44.15910720825195,random_edit,swedish
+On Thursday, we ate pizza., ate we pizza.,1,-18.44736099243164,-36.49177932739258,random_edit,english
+In autumn, it rains a lot., rains it a lot.,1,-12.393220901489258,-30.70330238342285,random_edit,english
+In January, the course begins., begins the course.,1,-24.515241622924805,-26.053054809570312,random_edit,english
+Tomorrow morning, we leave early., leave we early.,1,-21.0781307220459,-34.16224670410156,random_edit,english
+On Sunday, they play football., play they football.,1,-16.88796043395996,-35.17041778564453,random_edit,english
+Two years ago, he lived in Malmö., lived he in Malmö.,1,-27.680330276489258,-43.91194152832031,random_edit,english
+This weekend, we meet friends., meet we friends.,1,-21.06671142578125,-35.002262115478516,random_edit,english
+Recently, I bought a guitar., bought I a guitar.,1,-16.35457992553711,-35.34060287475586,random_edit,english
+Yesterday evening, we listened to music., listened we to music.,1,-18.038652420043945,-39.23045349121094,random_edit,english
+Next year, she will study., will she study.,1,-26.57279396057129,-32.24349594116211,random_edit,english
+Last Monday, they arrived late., arrived they late.,1,-18.203062057495117,-31.900278091430664,random_edit,english
+In spring, the flowers bloom., bloom the flowers.,1,-13.636543273925781,-22.614105224609375,random_edit,english

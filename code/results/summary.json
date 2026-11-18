@@ -1,0 +1,47 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "best_alpha": 0.25,
+  "conditions": {
+    "baseline": {
+      "swedish_v2_acc": 75.0,
+      "english_svo_acc": 100.0
+    },
+    "targeted_edit": {
+      "swedish_v2_acc": 50.0,
+      "english_svo_acc": 100.0
+    },
+    "random_edit": {
+      "swedish_v2_acc": 75.0,
+      "english_svo_acc": 100.0
+    }
+  },
+  "edit_metadata": {
+    "alpha": 0.25,
+    "target_token_ids": [
+      279,
+      342,
+      358,
+      432,
+      566,
+      582,
+      592,
+      773,
+      796,
+      807,
+      1340,
+      1353,
+      1643,
+      12709,
+      13076,
+      29011,
+      30005,
+      47331,
+      65067,
+      70757,
+      70935,
+      85623,
+      91293
+    ],
+    "hidden_direction_norm": 0.9999999403953552
+  }
+}
