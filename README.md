@@ -1,5 +1,7 @@
 # Swedish V2 Weight-Space Edit — Minimal Experiment
 
+## Summary
+
 A **pre-registered** targeted rank-1 edit to Qwen2.5-0.5B's `lm_head`,
 tuned on a dev split to improve Swedish verb-second (V2) word order,
 **failed**: held-out test accuracy dropped from 75% to 50% at the
