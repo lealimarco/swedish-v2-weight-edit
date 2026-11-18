@@ -1,7 +1,5 @@
 # Swedish V2 Weight-Space Edit — Minimal Experiment
 
-## TL;DR
-
 A **pre-registered** targeted rank-1 edit to Qwen2.5-0.5B's `lm_head`,
 tuned on a dev split to improve Swedish verb-second (V2) word order,
 **failed**: held-out test accuracy dropped from 75% to 50% at the
@@ -16,8 +14,6 @@ carries information. A mechanism diagnostic (verb-token overlap between
 dev and test completions) traced the post-hoc improvement to a **softmax
 redistribution effect over the dev/test vocabulary split**, not to a
 V2-specific capability improvement.
-
-The honest one-sentence summary:
 
 > A rank-1 `lm_head` edit guided by Swedish activations changes held-out
 > Swedish probe accuracy in a way that random or shuffled-direction edits
