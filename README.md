@@ -22,7 +22,7 @@ V2-specific capability improvement.
 > do not — but the change is consistent with a vocabulary-split artifact,
 > not with a genuine V2 capability improvement.
 
-**Full investigation:** [`research_note.md`](research_note.md).ù
+**Full investigation:** [`research_note.md`](research_note.md)
 
 ## Quick results
 
