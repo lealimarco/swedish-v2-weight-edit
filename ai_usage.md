@@ -1,6 +1,4 @@
 
----
-
 ## `ai_usage.md`
 
 ```markdown
@@ -16,7 +14,8 @@
   - Initial code skeleton for `probes.py`, `model_utils.py`,
     `steering.py`, `evaluate.py`, `run_experiment.py`, and the four
     follow-up check scripts.
-  - Drafting `research_note.md` and `README.md`.
+  - Drafting `research_note.md`, `README.md`, and the longer PDF
+    report.
 
 - **No model API calls** are made by the experiment itself. The
   "targeted edit" is a hand-crafted heuristic (mean hidden state + verb
@@ -46,8 +45,12 @@ labelled as post-hoc and exploratory in `research_note.md` Section 4.2.
 
 ## Reproducibility
 
-All code is committed as-is. Model revision is the default
-`Qwen/Qwen2.5-0.5B` from Hugging Face Hub at the time of the experiment.
-Random seed for `random_rank1_edit` is fixed per call; seeds are passed
-explicitly in `check2.py` (0–4). Determinism of the targeted edit is
-guaranteed by `torch.manual_seed(42)` in `load_model`.
+- **Model:** `Qwen/Qwen2.5-0.5B` (Hugging Face Hub), revision
+  `060db6499f32faf8b98477b0a26969ef7d8b9987` (last modified 2024-09-25;
+  this is the revision current on the Hub at the time of the
+  experiment, confirmed against the local HF cache snapshot).
+- **Framework:** transformers (CPU, fp32, `lm_head` untied from input
+  embeddings before editing).
+- **Random seed:** `torch.manual_seed(42)` in `load_model`; explicit
+  seeds `0–4` passed to `random_rank1_edit` in `check2.py`.
+```

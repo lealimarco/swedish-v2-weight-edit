@@ -22,7 +22,20 @@ V2-specific capability improvement.
 > do not — but the change is consistent with a vocabulary-split artifact,
 > not with a genuine V2 capability improvement.
 
-**Full investigation:** [`research_note.md`](research_note.md).
+**Full investigation:** [`research_note.md`](research_note.md).ù
+
+## Quick results
+
+| Method | SV test | EN test | Params |
+|---|---|---|---|
+| Baseline | 75.0% | 100.0% | 0 |
+| WSP pre-registered (α=+0.25) | 50.0% | 100.0% | rank-1 on lm_head |
+| WSP post-hoc (α=−0.5) | 91.7% | 100.0% | rank-1 on lm_head |
+| Random / shuffled edits | 75.0% | 100.0% | rank-1 on lm_head |
+| LoRA rank-4, 200 steps | 100.0% | 83.3% | 2.2M (0.35%) |
+
+Pre-registered WSP failed. Post-hoc WSP gain is a vocabulary-split artefact.
+LoRA wins on Swedish but fails the English constraint and shows memorization.
 
 ## What this does and does not test
 
@@ -42,5 +55,17 @@ V2-specific capability improvement.
 
 ```bash
 pip install -r requirements.txt
-cd code
-python3 run_experiment.py       # pre-registered main experiment
+
+# Pre-registered WSP experiment (~30 min CPU)
+python code/run_experiment.py
+
+# Post-hoc negative-α sweep
+python code/additional_test.py
+
+# Controls
+python code/check1.py && python code/check2.py && python code/check3.py && python code/check4.py
+
+# LoRA baseline (~10–20 min CPU)
+python code/lora_baseline.py
+
+

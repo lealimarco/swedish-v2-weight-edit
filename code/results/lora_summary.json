@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "lora_rank": 4,
+  "steps": 200,
+  "lr": 0.001,
+  "trainable_params": 2199552,
+  "baseline_swedish": 75.0,
+  "baseline_english": 100.0,
+  "lora_swedish": 100.0,
+  "lora_english": 83.33333333333333
+}
