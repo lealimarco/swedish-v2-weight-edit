@@ -47,9 +47,6 @@ LoRA wins on Swedish but fails the English constraint and shows memorization.
   pre-registered result was a 25 pp **degradation**; the post-hoc
   improvement contradicts the dev split and is consistent with a
   vocabulary-split artifact.
-- **Does not:** include a LoRA fine-tuning baseline, a fluency
-  regression metric, or disjoint-vocabulary probes — all of which are
-  necessary to distinguish a real V2 effect from a split artifact.
 
 ## Reproduce
 
